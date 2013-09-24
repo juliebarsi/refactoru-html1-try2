@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="css2-try2.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Delvour</title>
+</head>
+
+
+	<div id=header">
+		<div id="navcontainer">
+		<ul>
+			<div><li id="homelogo"><a href="home.html"/>Delvour.com</li><li><a href="private.html"/>your resources</li><li><a href="public.html"/>public list</li>
+			<li><a href="about"/>about</li> <li><a href="signup"/>sign up</li><li><a href="login"/>log in</li></div>
+		</ul>
+		</div>
+	</div>
+	<body>
+<p>Resources are for use.<br>
+Every user has their resource.<br>
+Every resource its user.<br>
+Save the time of the user.<br>
+The net is a growing organism.</p>
+<h1>Save a resource</h1>
+	<div id="content">
+	<div id="column">
+		<form action="demo_form.asp" method="get">
+  			1. URL of resource:<input type="text" name="url"><br><br>
+  			2. Field of study:<input type="text" name="p1"><br>
+			.	2a. System: <input type="text" name="p2"><br>
+			.	.	2b. Environment: <input type="text" name="p3"><br>
+			.	.	.	2c. Specials: <input type="text" name="p4"><br>
+			3. Object of study: <input type="text" name="m1"><br>
+			.	3a. Kinds/Parts of object: <input type="text" name="m2"><br>
+			.	.	3b. Properties of object: <input type="text" name="m3"><br>
+			4. Action on the object: <input type="text" name="e1"><br>
+			.	4a. Kind/method of action: <input type="text" name="e2"><br>
+			.	.	4b. Agent of action: <input type="text" name="e3"><br>
+			.	.	.	4c. Instrument of action: <input type="text" name="e4"><br>
+			5. Space (Location of object): <input type="text" name="s1"><br>
+			.	5a. Space type: <input type="text" name="m1"><br>
+			6. Time <input type="text" name="t1"><br>
+			.	6a. Time type: <input type="text" name="t2"><br>
+			
+			(optional) 
+			7. Type of media: <select>
+						<option value="a">audio/podcast</option>
+						<option value="v">video</option>
+						<option value="p">pictures</option>
+						<option value="m">maps</option>
+						<option value="t">text</option>
+						<option value="f">forum</option>
+						<option value="i">interactive/game</option>
+						<option value="r">recipe</option>
+						<option value="d">data</option>
+
+					</select>
+				
+			
+  		<label for="public">
+  			<div>Put in public library as well?
+				<select>
+					<option value="yes">yes</option>
+					<option value="no">no</option>
+				</select>
+					<button type="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+	</div>
+	<blockquote>Top saved resouces today:</blockquote>
+	<table border="1">
+ 			<colgroup>
+    			<col span="2">
+  			</colgroup>
+ 		<tr>
+ 			<thead>
+ 				<th>#</th>
+    			<th>Resource</th>
+    		</thead>
+  		</tr>
+  		<tbody>
+  			<tr>
+    			<td>1</td>
+    			<td>url of #1</td>
+  			</tr>
+  			<tr>
+  				<td>2</td>
+  				<td>url of #2</td>
+  			</tr>
+  		</tbody>
+  		<tfoot>
+  			<tr>
+  				<td>3</td>
+  				<td>url of #3</td>
+  			</tr>
+  		</tfoot>
+	</table>
+
+	
+<div class="whitespace"></div>
+<footer>
+	<address>
+		by Julie Barsi.<br> 
+		<a href="www.juliebarsi.com">www.juliebarsi.com</a><br>
+	</address>
+</footer>
+</body>
+</html>
